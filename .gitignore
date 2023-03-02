@@ -1,0 +1,16 @@
+*.local
+.DS_Store
+
+# Node modules
+node_modules
+
+# Build files
+dist
+
+# Development environment
+.vscode
+.idea
+
+# app environment variable
+.env
+

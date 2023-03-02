@@ -1,0 +1,68 @@
+{
+  "name": "vue3-vite-ts-template",
+  "version": "0.0.0",
+  "author": "usamaidrsk",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint:markup": "vue-tsc --noEmit",
+    "lint:script": "eslint --ext .ts,vue --ignore-path .gitignore .",
+    "lint:style": "stylelint src/**/*.{css,scss,vue}"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "vue": "^3.2.47",
+    "vue-axios": "^3.4.0",
+    "vue-router": "4",
+    "vuetify": "^3.1.6",
+    "vuex": "^4.0.2",
+    "vuex-persistedstate": "^4.0.0-beta.3"
+  },
+  "devDependencies": {
+    "@originjs/vite-plugin-commonjs": "^1.0.3",
+    "@typescript-eslint/eslint-plugin": "^4.28.2",
+    "@typescript-eslint/parser": "^4.28.2",
+    "@vitejs/plugin-vue": "^1.2.4",
+    "@vue/compiler-sfc": "^3.2.47",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "@vue/eslint-config-typescript": "^7.0.0",
+    "commitizen": "^4.2.4",
+    "cz-emoji": "^1.3.1",
+    "eslint": "^7.30.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-vue": "^7.13.0",
+    "husky": "^4.3.0",
+    "lint-staged": "^10.5.0",
+    "prettier": "^2.3.2",
+    "rollup-plugin-visualizer": "^5.9.0",
+    "stylelint": "^13.13.1",
+    "stylelint-config-recommended": "^5.0.0",
+    "stylelint-config-standard": "^22.0.0",
+    "typescript": "^4.3.5",
+    "vite": "^2.4.1",
+    "vite-plugin-vuetify": "^1.0.2",
+    "vue-tsc": "^0.2.0"
+  },
+  "peerDependencies": {
+    "vue": "^3.1.47"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{ts,vue}": "eslint --fix",
+    "*.{css,scss,vue}": "stylelint --fix",
+    "*": "prettier -w -u"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-emoji"
+    }
+  },
+  "resolutions": {
+    "elements-plus/vue": "^3.2.47"
+  }
+}
