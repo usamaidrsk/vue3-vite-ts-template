@@ -1,6 +1,5 @@
 
 # Vue 3, Vite and Ts Template
-g
 ## Description
 
 This is a vue 3, vite and ts template to start-up your development
