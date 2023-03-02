@@ -52,4 +52,3 @@ Run the project, the app should run at port 8080
 - [@usamaidrsk](https://www.github.com/usamaidrsk) Twitter - [@usamakakumba](https://twitter.com/usamakakumba)
 
 [Back To The Top](#read-me)
-g
