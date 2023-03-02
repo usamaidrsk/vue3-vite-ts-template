@@ -2,7 +2,6 @@
 # Vue 3, Vite and Ts Template
 
 ### Table of Contents
-You're sections headers will be used to reference location of destination.
 
 - [Description](#description)
 - [How To Use](#how-to-use)
@@ -61,8 +60,7 @@ Run the project, the app should run at port 8080
     
 ## Authors
 
-- [@usamaidrsk](https://www.github.com/usamaidrsk)
-- Twitter - [@usamakakumba](https://twitter.com/usamakakumba)
+- [@usamaidrsk](https://www.github.com/usamaidrsk) Twitter - [@usamakakumba](https://twitter.com/usamakakumba)
 
 [Back To The Top](#read-me)
 g
