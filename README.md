@@ -1,16 +1,6 @@
 
 # Vue 3, Vite and Ts Template
-
-### Table of Contents
-
-- [Description](#description)
-- [How To Use](#how-to-use)
-- [References](#references)
-- [License](#license)
-- [Author Info](#author-info)
-
----
-
+g
 ## Description
 
 This is a vue 3, vite and ts template to start-up your development
