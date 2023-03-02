@@ -2,7 +2,6 @@
   "name": "vue3-vite-ts-template",
   "version": "0.0.0",
   "author": "usamaidrsk",
-  "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

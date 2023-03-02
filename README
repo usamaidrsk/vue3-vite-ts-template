@@ -1,0 +1,44 @@
+
+> This is a ReadMe template to help save you time and effort.
+
+---
+
+### Table of Contents
+You're sections headers will be used to reference location of destination.
+
+- [Description](#description)
+- [How To Use](#how-to-use)
+- [References](#references)
+- [License](#license)
+- [Author Info](#author-info)
+
+---
+
+## Description
+
+This is a vue 3, vite and ts template to start-up your development
+
+#### Technologies
+
+- Vue 3
+- Vite
+- Typescript
+- Vuetify
+- Vuex store
+- Axios
+
+[Back To The Top](#read-me)
+
+---
+
+## How To Use
+
+#### Installation
+
+
+## Author Info
+
+- Name - Usama Idriss Kakumba
+- Twitter - [@usamakakumba](https://twitter.com/usamakakumba)
+
+[Back To The Top](#read-me)
